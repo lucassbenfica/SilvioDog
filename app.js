@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }).addTo(map);
 
 
-  var marker2 = L.marker([-23.52026413037824, -46.83670586136634], {icon: greenIcon}).addTo(map);
-  marker2.bindPopup("Amada turma de DMD, eu me perdi aqui").openPopup();
+  
 
   
   // Create a marker with popup and add it to the map

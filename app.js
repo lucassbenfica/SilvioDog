@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var marker = L.marker([-23.589316, -46.659423]).addTo(map);
   marker.bindPopup("hey hey doggy").openPopup();
 
-var marker2 = L.marker([-23.52026413037824, -46.83670586136634], {icon: greenIcon}).addTo(map);
+var marker2 = L.marker([-23.589316, -46.659423], {icon: greenIcon}).addTo(map);
   marker2.bindPopup("Amada turma de DMD, eu me perdi aqui").openPopup();
 
   
